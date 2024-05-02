@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Introduction about HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Summary</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+          </li>
+        <li>
+          <a class="nav-link" href="#Tags">Tags</a>
+          </li>
+        <li>
+          <a class="nav-link" href="#Attributes">Attributes</a>
+          </li>
+        <li>
+          <a class="nav-link" href="#Content">Content</a>
+          </li>
+        <li>
+          <a class="nav-link" href="#Reference">Reference</a>
+          </li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>HTML, or Hypertext Markup Language, is the foundation of web development. It provides the structure and content of web pages, allowing you to create documents that can be viewed in web browsers.</p>
+        <p>HTML is a versatile language that can be used on its own to create static web pages or combined with other technologies like CSS (Cascading Style Sheets) and JavaScript to build interactive and dynamic web applications.</p>
+        <p>This is the general syntax of a Element in Html:</p>
+        <code>
+          &lt;element attribute="attribute_value"&gt;Content&lt;/element&gt;
+        </code>
+        <p>For Example:</p>
+        <code>
+          &lt;form action="#"&gt;&lt;/form&gt;
+        </code>
+      </section>
+
+      <section class="main-section" id="Tags">
+        <header>Tags</header>
+        <p>HTML elements are defined using tags, which are enclosed in angle brackets &lt &gt. Tags usually come in pairs: an opening tag and a closing tag. The opening tag specifies the beginning of an element, and the closing tag marks the end of the element. For example, &ltp&gt is the opening tag for a paragraph element, and &lt/p&gt is its closing tag.&lt/p&gt
+        <p>Some popular tag: </p>
+        <code>
+  &lt;div&gt;&lt;/div&gt;<br>
+  &lt;p&gt;&lt;/p&gt;<br>
+  &lt;a /&gt;<br>
+  &lt;img /&gt;<br>
+  &lt;ul&gt;&lt;/ul&gt; &lt;ol&gt;&lt;/ol&gt;<br>
+  &lt;li&gt;&lt;/li&gt;<br>
+  &lt;h1&gt;&lt;/h1&gt; &lt;h6&gt;&lt;/h6&gt;<br>
+  &lt;span&gt;&lt;/span&gt;<br>
+  &lt;input /&gt;<br>
+  &lt;form&gt;&lt;/form&gt;<br>
+</code>
+        <ul>
+  <li>The div tag: Generic container used for grouping and styling content together, commonly for layout and CSS styles.</li>
+  <li>The p tag: Defines a paragraph of text within a document.</li>
+  <li>The a tag: Creates a hyperlink to another webpage or resource.</li>
+  <li>The img tag: Inserts an image into a webpage with alternative text for accessibility.</li>
+  <li>The ul tag and the ol tag: Create unordered and ordered lists, respectively.</li>
+  <li>The li tag: Defines a list item within an unordered or ordered list.</li>
+  <li>The h1 tag to the h6 tag: Define headings of different levels.</li>
+  <li>The span tag: Inline container for applying styles to specific text or grouping inline elements.</li>
+  <li>The input tag: Creates a text input field within a form.</li>
+  <li>The form tag: Creates an HTML form for collecting user input.</li>
+</ul>
+      </section>
+
+      <section class="main-section" id="Attributes">
+        <header>Attributes</header>
+        <p>Attributes in HTML provide additional information about an element and are always specified in the start tag of an element.Attributes can define characteristics such as the appearance, behavior, or functionality of an element.</p>
+        <p>For Example:</p>
+        <code>&lt;img src="" /&gt;</code>
+        <p>The src attribute of the img tag specifies the source URL (Uniform Resource Locator) of the image to be displayed on a web page. This attribute is mandatory for the img tag, as it tells the browser where to find the image file that should be rendered.</p>
+      </section>
+
+      <section class="main-section" id="Content">
+        <header>Content</header>
+        <p>Content includes text, images, videos, links, and any other elements or data that are enclosed within an HTML tag. In simple terms, it's what you see on the webpage when you view it in a web browser.</p>
+        <p>For Example:</p>
+        <code>&lt;p&gt; This is CONTENT &lt;/p&gt;</code>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <p>Courses from <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener">Freecodecamp</a></p>
+      </section>
+    </main>
+  </body>
+</html>
